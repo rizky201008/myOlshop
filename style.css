@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#product .produk-title {
+    font-size: 25px;
+}
+
+#product .card-title p{
+ font-size: 20px;
+}
+
+#product .card-text p{
+ font-size: 20px;
+}
+
+#product .card{
+    margin-bottom: 20px;
+}
+
+#category .produk-title {
+    font-size: 25px;
+}
+
+#category .card-title p{
+ font-size: 20px;
+}
+
+#category .card-text p{
+ font-size: 20px;
+}
+
+#category .card{
+    margin-bottom: 20px;
+}
+
+#nothing-promotion {
+    padding-top: 5rem;
+}
+
+#nothing-promotion .nothing-promo{
+    width: 90%;
+}
+
+#nothing-promotion .noting-promo-text{
+    font-size: 30px;
+}
+.header-main {
+    background-color: #0d6efd;
+    padding: 1%;
+}
+
+#icon-kontak {
+    align-items: center;
+    font-size: 5rem;
+}
