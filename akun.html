@@ -73,24 +73,45 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-3 m-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                         <ul class="list-group list-group-flush">
                             <li onclick="profile()" class="list-group-item active">Profil</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
+                            <li onclick="transaksi()" class="list-group-item">Transaksi</li>
+                            <li onclick="alamat()" class="list-group-item">Alamat</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-8 m-3">
                     <div class="card">
-                        <div class="card-header">
-                            Featured
+                        <div class="card-header bg-primary text-light">
+                            Profil
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
-                            </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="card-body" style="padding: 2rem;">
+                            <div class="row justify-content-center">
+                                <div class="col-sm-3 mb-1">
+                                    <img id="profile" class="rounded-circle" src="logo.png" alt="logo">
+                                </div>
+                                <div class="col-sm-5 mb-1">
+                                    <p>
+                                        Selamat Datang!
+                                    </p>
+                                    <h5>
+                                        Nama Kamu
+                                    </h5>
+                                    <p>
+                                        email@email.com
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card" style="padding: 1rem;">
+                                        <div class="card-body">
+                                            <p id="saldo-title"><strong>Saldo</strong></p>
+                                            <p id="saldo-body">Rp. 1000.000.000</p>
+                                            <button id="btn-topup" class="btn btn-primary w-100">Topup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,6 +123,12 @@
     <script>
         function profile() {
             window.location.href = "akun.html";
+        }
+        function transaksi() {
+            window.location.href = "transaksi.html";
+        }
+        function alamat() {
+            window.location.href = "alamat.html";
         }
         // function tess() {
         //     window.location.href = "home.html";
