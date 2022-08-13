@@ -66,3 +66,15 @@
     margin-right: 1rem;
     margin-left: 1rem;
 }
+
+.list-group-item:hover {
+    background-color: #dceaff;
+}
+
+#profile {
+    width: 100%;
+}
+
+#saldo-title{
+    font-size: 20px;
+}
