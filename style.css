@@ -56,3 +56,13 @@
     align-items: center;
     font-size: 5rem;
 }
+
+#keranjang .keranjang-title {
+    font-size: 25px;
+}
+
+#carouselExampleControls {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
