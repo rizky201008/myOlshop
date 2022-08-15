@@ -70,6 +70,9 @@
 .list-group-item:hover {
     background-color: #dceaff;
 }
+#logout-btn:hover {
+    background-color: #f58686;
+}
 
 #profile {
     width: 100%;
