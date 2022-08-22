@@ -77,7 +77,7 @@
                         <ul class="list-group list-group-flush">
                             <li onclick="profile()" class="list-group-item active">Profil</li>
                             <li onclick="transaksi()" class="list-group-item">Transaksi</li>
-                            <li onclick="alamat()" class="list-group-item">Alamat</li>
+
                             <li onclick="logout()" class="list-group-item" id="logout-btn">Logout</li>
                         </ul>
                     </div>
@@ -129,9 +129,7 @@
         function transaksi() {
             window.location.href = "transaksi.html";
         }
-        function alamat() {
-            window.location.href = "alamat.html";
-        }
+
         function logout() {
             Swal.fire({
                 title: 'Yakin mau keluar?',
